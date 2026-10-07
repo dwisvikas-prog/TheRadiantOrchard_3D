@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b8f7c8279630947bf9f8b0d14bfd98, type: 3}
+  m_Name: QuizDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::RadiantOrchard.QuizDatabase
+  questions:
+  - questionText: A friend is sitting alone and looks sad. What's the kind thing
+      to do?
+    options:
+    - Walk away
+    - Sit with them and ask what's wrong
+    - Laugh at them
+    correctIndex: 1
+  - questionText: You're scared to try something new. What shows courage?
+    options:
+    - Never trying
+    - Trying anyway, even if you might fail
+    - Making someone else do it
+    correctIndex: 1
+  - questionText: You have two apples and a friend has none. What's generous?
+    options:
+    - Eat both yourself
+    - Share one with your friend
+    - Hide them
+    correctIndex: 1
+  - questionText: A seed takes time to grow into a tree. What does that teach us?
+    options:
+    - Give up if it's slow
+    - Good things take time
+    - Dig it up to skip the wait
+    correctIndex: 1
+  - questionText: Someone helps you carry a heavy basket. What should you say?
+    options:
+    - Nothing
+    - Thank you
+    - That took too long
+    correctIndex: 1
+  - questionText: You broke a vase by accident. What's the honest choice?
+    options:
+    - Blame someone else
+    - Hide it and say nothing
+    - Tell the truth about what happened
+    correctIndex: 2
+  - questionText: An elder is speaking. What shows respect?
+    options:
+    - Interrupt them
+    - Listen without interrupting
+    - Walk away
+    correctIndex: 1
+  - questionText: Your tower of blocks keeps falling. What shows perseverance?
+    options:
+    - Give up for good
+    - Keep trying and rebuild it
+    - Blame the blocks
+    correctIndex: 1
+  - questionText: A friend apologizes for a mistake. What shows forgiveness?
+    options:
+    - Stay angry forever
+    - Accept the apology and move on
+    - Never speak to them again
+    correctIndex: 1

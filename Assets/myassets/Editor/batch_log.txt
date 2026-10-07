@@ -1,0 +1,42 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.10f1 (3bd4f66ad299) revision 3921142'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vikasuniyal" at "2026-09-09T18:01:24.9418182Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15781 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-09T18:01:24Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14880, path: "E:/Unity/Projects/RadiantOrchard/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              efd013a4c5f448d2a116eac9ac8d3cc2
+  Correlation Id:          f2c0dbacdda6777231dbd3539315ca8a
+  External correlation Id: 7986504709788798295
+  Machine Id:              BgwyKoYqqPtyzUfS1+vvfjqMI8c=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vikasuniyal" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vikasuniyal-notifications" at "2026-09-09T18:01:25.0022845Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469962852127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Editors\6000.5.10f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+E:/Unity/Projects/TheRadiantOrchard_3D
+-executeMethod
+BuildIslandSceneBatch.Run
+-logFile
+E:/Unity/Projects/TheRadiantOrchard_3D/Assets/myassets/Editor/batch_log.txt
+Successfully changed project path to: E:/Unity/Projects/TheRadiantOrchard_3D
+E:/Unity/Projects/TheRadiantOrchard_3D
+Exiting without the bug reporter. Application will terminate with return code 1

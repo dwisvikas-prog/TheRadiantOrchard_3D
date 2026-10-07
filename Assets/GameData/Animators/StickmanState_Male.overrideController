@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StickmanState_Male
+  m_Controller: {fileID: 9100000, guid: acc6fc32d2519f549af5cb3d05d101d5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5f101a6bae4483343a7949a9a64a0fec, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5f101a6bae4483343a7949a9a64a0fec, type: 3}

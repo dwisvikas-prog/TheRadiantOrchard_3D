@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c58b7e5adee2b44db7cd83f631e5b8e, type: 3}
+  m_Name: Level_03
+  m_EditorClassIdentifier: Assembly-CSharp::RadiantOrchard.LevelDefinition
+  levelId: level_03
+  displayName: Level 3
+  virtue: {fileID: 11400000, guid: a98ed8323ae0e6f4baa93c60ceed2232, type: 2}
+  objectives:
+  - objectiveId: level_03_help_npc_01
+    description: "Different requests are arriving \u2014 decide who to help first."
+    type: 1
+    targetId: npc_level_03_01
+    requiredCount: 1
+    vibrancyReward: 20
+  - objectiveId: level_03_help_npc_02
+    description: "Different requests are arriving \u2014 decide who to help first."
+    type: 1
+    targetId: npc_level_03_02
+    requiredCount: 1
+    vibrancyReward: 20
+  npcScenarios:
+  - npcId: npc_level_03_01
+    startingEmotion: 2
+    problemDescription: "Different requests are arriving \u2014 decide who to help
+      first."
+    thoughtBubbleText: ...
+    requiredVirtueId: kindness
+    resolvedEmotion: 1
+    vibrancyReward: 20
+  - npcId: npc_level_03_02
+    startingEmotion: 2
+    problemDescription: "Different requests are arriving \u2014 decide who to help
+      first."
+    thoughtBubbleText: ...
+    requiredVirtueId: kindness
+    resolvedEmotion: 1
+    vibrancyReward: 20
+  requiredVibrancy: 140
+  spawnInterval: 12
+  maxActiveStickmen: 2
+  patienceTime: 20
+  rewardIds: []
+  nextLevel: {fileID: 11400000, guid: d5c3ba4a1cf5ce94680829a88d9d0c14, type: 2}

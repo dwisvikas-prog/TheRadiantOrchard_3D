@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff21cc0283027f3e457e1beeb6417cd7, type: 3}
+  m_Name: FruitData_Lemon
+  m_EditorClassIdentifier: Assembly-CSharp::RadiantOrchard.FruitData
+  fruitType: 3
+  displayName: Lemon
+  gestureType: 1
+  virtue: {fileID: 11400000, guid: 88bc42e281c5e4c40b9063085e3c6e0a, type: 2}
+  visualPrefab: {fileID: 1869877058872320201, guid: 262eaa02fbed608f88426a413410082a, type: 3}
+  placeholderShape: 1
+  placeholderColor: {r: 0.95, g: 0.9, b: 0.15, a: 1}
+  symptomIcon: {fileID: 21300000, guid: 0cd41a952b7c61f459ee49985c4abb71, type: 3}
+  spiritRestoreAmount: 0.15
+  healingAmount: 0.4
+  suitableConditions: 02000000
+  rarity: 0.8
+  emotionalResponse: 7
